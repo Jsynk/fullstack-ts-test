@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-ts-test-alpha",
+  "version": "1.0.0",
+  "description": "## Purpose The purpose of this task is to evaluate your ability to design and implement a simple full-stack program that interacts with a public API. During the interview, we will review your code and ask you questions about your implementation, so please be prepared to discuss your design choices, any challenges you faced, and how you overcame them. We will be looking for clean, maintainable code that follows best practices, as well as your ability to explain your choices and think critically about the problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "concurrently \"cd client & npm i\" \"cd server & npm i\"",
+    "start": "concurrently \"cd client & npm run start\" \"cd server & npm run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
