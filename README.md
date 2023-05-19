@@ -1,4 +1,4 @@
-# Favorites GIFS
+# Favorites GIFS - Made with React, MobX, Typescript, Tailwind/daisyUI, Node.js, Express, PostgreSQL
 
 ![image info](./images/fav_gifs.gif)
 
